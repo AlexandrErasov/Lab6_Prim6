@@ -1,1 +1,1 @@
-# Lab6_Prim6
+# Lab6_Primat6
