@@ -4,26 +4,27 @@
 #define M 100
 
 
-//ввод матрицы
+//matrix input
 void Read(int& n, int& m, int matrix[N][M]);
 
-//поиск максимального элемента в матрице
+//finding the maximum element in a matrix
 void FindMaxElem(int& n, int& m, int max, int matrix[N][M]);
 
-//поиск минимального элемента в матрице
+//finding the minimum element in a matrix
 void FindMinElem(int& n, int& m, int min, int matrix[N][M]);
 
-//сумма цифр максимального элемента матрицы
+//sum of digits of the maximum matrix element
 void SumOfDigitMax(int sumMaxElem, int maxElem);
 
-//сумма цифр минимального элемента матрицы
+//sum of digits of the minimum matrix element
 void SumOfDigitMin(int sumMinElem, int minElem);
 
-// сумма элементов строки
+//line element sum
 void LineSum(int& n, int& m, int sumline[N], int matrix[N][M]);
 
-//Если суммы цифр мин и макс элементов равны, то упорядочить строки матрицы по неубыванию суммы элементов
+/*If the sums of the digits minand max of the elements are
+equal, then order the rows of the matrix in non-decreasing order of the sum of the elements*/
 void Sort(int& n, int& m, int sumMaxElem, int sumMinElem, int sumline[N], int matrix[N][M]);
 
-//вывод
+//output
 void Write(int& n, int& m, int matrix[N][M], int sumline[N]);
